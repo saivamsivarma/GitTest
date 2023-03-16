@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap'); 
+
+*{
+    font-family:  Roboto, sans-serif;
+}
+
+.text-primary{
+    color:#3366FF;
+}
+
+.text-secondary{
+    color:#7B7C8A;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.header-container{
+    padding:1.5% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    width: 10%;
+}
+
+.main-menu{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-menu a{
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 3%;
+    color: #3366FF;
+}
+
+.btn {
+    font-weight:600;
+    font-size: 18px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-primary {
+    color: #FFFFFF;
+    background-color: #3366FF;
+    border: 2px solid #3366FF;
+}
+
+
+.btn-primary-outline{
+    color: #3366FF;
+    background-color: #FFFFFF;
+    border: 2px solid #3366FF;
+}
+
+.home{
+    background-color: #d8eefb;
+    border-radius: 25px;
+}
+
+.container{
+    padding:1.5% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.info{
+    width: 40%;
+}
+
+.section-header{
+    font-weight: 600;
+    font-size: 4.5rem;
+}
+
+.info .button-group {
+    margin: 8% 0%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info .app-details{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+.app-details {
+    margin: 10% 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.about section{
+    width: 50%;
+}
